@@ -8,11 +8,11 @@ def introduction (name)
 end
 
 def introduction_with_language (name, language)
-  puts "Hi"
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
 
-def first_method(p1, op="")
-  
+def introduction_with_language_optional (name, language="Ruby")
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
 
 
